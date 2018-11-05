@@ -116,6 +116,9 @@
                                         <state key="normal" title="MENS">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="OnMensTapped:" destination="Gs4-VK-7Ah" eventType="touchUpInside" id="aOh-Bw-Atn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCo-Ij-GrZ" customClass="darkGreyButtons" customModule="app_swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="75" width="315" height="55"/>
@@ -127,6 +130,9 @@
                                         <state key="normal" title="WOMENS">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="OnWomensTapped:" destination="Gs4-VK-7Ah" eventType="touchUpInside" id="IaN-I7-jiH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yX3-QG-6Kc" customClass="darkGreyButtons" customModule="app_swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="150" width="315" height="55"/>
@@ -138,10 +144,13 @@
                                         <state key="normal" title="CO-ED">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="OnCoEdTapped:" destination="Gs4-VK-7Ah" eventType="touchUpInside" id="QCK-RC-b2R"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yy1-IM-flA" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yy1-IM-flA" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                 <rect key="frame" x="30" y="582" width="315" height="55"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.48401738560000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -213,6 +222,7 @@
                         <viewLayoutGuide key="safeArea" id="smh-jH-sm6"/>
                     </view>
                     <connections>
+                        <outlet property="NextBtn" destination="Yy1-IM-flA" id="GA8-g9-PXK"/>
                         <segue destination="iT3-CJ-ufc" kind="show" identifier="SkillVCSegue" id="j2l-zb-uKz"/>
                     </connections>
                 </viewController>

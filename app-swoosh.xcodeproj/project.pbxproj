@@ -16,6 +16,7 @@
 		1370E881218C8FD100AF19B2 /* darkGreyButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1370E880218C8FD100AF19B2 /* darkGreyButtons.swift */; };
 		13FC988421904214006BAAE6 /* LeagueScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FC988321904214006BAAE6 /* LeagueScreenVC.swift */; };
 		13FC988621904227006BAAE6 /* SkillScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FC988521904227006BAAE6 /* SkillScreenVC.swift */; };
+		13FC988821904BFD006BAAE6 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FC988721904BFD006BAAE6 /* player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1370E880218C8FD100AF19B2 /* darkGreyButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkGreyButtons.swift; sourceTree = "<group>"; };
 		13FC988321904214006BAAE6 /* LeagueScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueScreenVC.swift; sourceTree = "<group>"; };
 		13FC988521904227006BAAE6 /* SkillScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillScreenVC.swift; sourceTree = "<group>"; };
+		13FC988721904BFD006BAAE6 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		13FC988221904153006BAAE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				13FC988721904BFD006BAAE6 /* player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				13FC988421904214006BAAE6 /* LeagueScreenVC.swift in Sources */,
 				1370E881218C8FD100AF19B2 /* darkGreyButtons.swift in Sources */,
 				1370E86E218C534B00AF19B2 /* WelcomeScreenVC.swift in Sources */,
+				13FC988821904BFD006BAAE6 /* player.swift in Sources */,
 				1370E86C218C534B00AF19B2 /* AppDelegate.swift in Sources */,
 				13FC988621904227006BAAE6 /* SkillScreenVC.swift in Sources */,
 				1370E87F218C6D8400AF19B2 /* BorderButton.swift in Sources */,
